@@ -1,0 +1,37 @@
+Sales-Performance-Dashboard/
+│
+├── Dataset/
+│   └── sales_data.csv
+│
+├── Dashboard/
+│   └── Sales_Dashboard.pbix
+│
+├── Screenshots/
+│   └── dashboard_preview.png
+│
+└── README.md
+
+# Sales Performance Dashboard - Power BI
+
+## Overview
+This project analyzes 10,000+ sales records to identify:
+- Revenue trends
+- Regional performance
+- Product profitability
+- KPI metrics
+
+## Tools Used
+- Power BI
+- DAX
+- Data Modeling
+
+## Key Insights
+- Electronics category contributes highest revenue.
+- West region shows highest profit margin.
+- Profit margin averages around 20%.
+
+## Dashboard Features
+- Revenue & Profit KPIs
+- Category-wise performance
+- Regional analysis
+- Dynamic slicers & filters
