@@ -20,6 +20,7 @@ Evaluate ROI and performance of digital marketing campaigns.
 - Facebook showed moderate CTR.
 - Budget reallocation suggested for underperforming channels.
 
+
 - Campaign	   Channel	Impressions 	Clicks	Conversions	Cost
 C1	Facebook	10000	     800	          50	             20000
 C2	Google Ads	15000	   1200	          90	         35000
