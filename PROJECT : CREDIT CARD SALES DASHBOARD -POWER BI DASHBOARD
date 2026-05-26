@@ -1,0 +1,89 @@
+Project Overview
+
+This project is a professional Power BI dashboard built using a real-world credit card sales dataset. The dashboard analyzes:
+
+Total card sales
+Customer performance
+Bank-wise sales
+Ratings analysis
+State-wise performance
+Customer sentiment
+Sales trends over time
+
+The project is fully GitHub-ready and interview-ready.
+
+Project Folder Structure
+Credit-Card-Sales-Dashboard/
+│
+├── Dataset/
+│   └── credit_card_sales_dataset.xlsx
+│
+├── Dashboard/
+│   ├── Credit_Card_Sales_Dashboard.pbix
+│   └── dashboard_screenshot.png
+│
+├── Colab/
+│   └── data_cleaning_analysis.ipynb
+│
+├── Images/
+│   ├── dashboard_overview.png
+│   ├── sales_by_bank.png
+│   ├── sales_by_state.png
+│   └── rating_distribution.png
+│
+├── README.md
+└── requirements.txt
+Dataset Information
+Dataset Name
+
+credit_card_sales_dataset.xlsx
+
+Dataset Size
+Total Records: 12,000
+Total Columns: 11
+
+Columns Used
+Column Name	Description
+Bank Name	Credit card issuing bank
+Customer Name	Customer full name
+Mobile Number	Customer mobile number
+Card Number	Credit card number
+Customer Review	Customer feedback
+No of Sales of Cards	Total cards sold
+Rating	Customer rating
+City	Customer city
+State	Customer state
+Positive Mark	Positive customer score
+Negative Mark	Negative customer score
+Power BI Dashboard Layout
+
+KPI Cards
+Total Sales
+Unique Customers
+Average Rating
+Positive Marks
+Negative Marks
+Visualizations
+Visual	Type
+Sales by Bank	Donut Chart
+Sales Trend Over Time	Line + Column Chart
+Sales by State	Filled Map
+Top 10 Cities by Sales	Bar Chart
+Rating Distribution	Donut Chart
+Sales Summary by Bank	Matrix Table
+Recent Sales Details	Table
+
+Power BI DAX Measures
+Total Sales
+Total Sales = SUM('Sheet1'[No of Sales of Cards])
+Unique Customers
+Unique Customers = DISTINCTCOUNT('Sheet1'[Customer Name])
+Average Rating
+Average Rating = AVERAGE('Sheet1'[Rating])
+Positive Marks
+Positive Marks = SUM('Sheet1'[Positive Mark])
+Negative Marks
+Negative Marks = SUM('Sheet1'[Negative Mark])
+Total Banks
+Total Banks = DISTINCTCOUNT('Sheet1'[Bank Name])
+
