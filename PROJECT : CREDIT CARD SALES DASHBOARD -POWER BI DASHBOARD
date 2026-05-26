@@ -10,8 +10,6 @@ State-wise performance
 Customer sentiment
 Sales trends over time
 
-The project is fully GitHub-ready and interview-ready.
-
 Project Folder Structure
 Credit-Card-Sales-Dashboard/
 │
@@ -87,3 +85,90 @@ Negative Marks = SUM('Sheet1'[Negative Mark])
 Total Banks
 Total Banks = DISTINCTCOUNT('Sheet1'[Bank Name])
 
+1. KPI Cards
+Fields Used
+KPI	Field
+Total Sales	No of Sales of Cards
+Unique Customers	Customer Name
+Average Rating	Rating
+Positive Marks	Positive Mark
+Negative Marks	Negative Mark
+2. Sales by Bank
+Visual Type
+
+Donut Chart
+
+Legend
+
+Bank Name
+
+Values
+
+No of Sales of Cards
+
+3. Sales Trend Over Time
+Visual Type
+
+Line and Clustered Column Chart
+
+Axis
+
+Month
+
+Column Values
+
+No of Sales of Cards
+
+Line Values
+
+Average Rating
+
+4. Sales by State
+Visual Type
+
+Filled Map
+
+Location
+
+State
+
+Values
+
+No of Sales of Cards
+
+5. Top Cities by Sales
+Visual Type
+
+Clustered Bar Chart
+
+Axis
+
+City
+
+Values
+
+No of Sales of Cards
+
+6. Rating Distribution
+Visual Type
+
+Donut Chart
+
+Legend
+
+Rating
+
+Values
+
+Count of Customers
+
+Power Query Transformations
+Applied Steps
+Remove duplicates
+Handle missing values
+Convert ratings to decimal
+Standardize city names
+Format mobile numbers
+Create month column
+Create year column
+Data type conversions
